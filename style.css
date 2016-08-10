@@ -1,0 +1,32 @@
+
+/* color scheme
+
+Blue: #0d182c
+Light Blue:
+White:
+
+
+*/
+
+.header h1{
+    color: #0d182c;
+}
+
+#intro-section{
+    background-image: url(img/Davis-Monthan_Air_Force_Base.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.jumbotron{
+    background-color: transparent;
+    text-align: center;
+    color: #0d182c;
+}
+
+.jumbotron img{
+    max-width: 300px;
+    border-radius: 300px;
+}
