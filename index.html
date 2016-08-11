@@ -23,17 +23,20 @@
 <body>
 	<div class="parallax" id="intro-section">
 		<div class="overlay">
-			<div class="header-bkd">
+			<div class="header-bkd navbar-fixed-top">
 				<div class="container">
 					<div class="header clearfix">
 						<nav class="clearfix">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 							<h1 class="pull-left"><img class="logo-img" src="img/fb_icon_1024.jpg" alt="Air Force Logo"> John<span style="color: white;">.</span><span style="font-size: 30px; color:#6592bb; ">USAF</span></h1>
-							<ul class="nav nav-pills pull-right">
-								<li role="presentation"><a href="#">Intro</a></li>
-								<li role="presentation"><a href="#section-one">Basic</a></li>
-								<li role="presentation"><a href="#section-two">Career</a></li>
-								<li role="presentation"><a href="#section-three">Cool Stuff</a></li>
-							</ul>
+							<div class="navbar-collapse collapse" id="navbar">
+								<ul class="nav nav-pills pull-right">
+									<li role="presentation"><a href="#">Intro</a></li>
+									<li role="presentation"><a href="#section-one">Basic</a></li>
+									<li role="presentation"><a href="#section-two">Career</a></li>
+									<li role="presentation"><a href="#section-three">Cool Stuff</a></li>
+								</ul>
+							</div>
 						</nav>
 					</div>
 				</div>
@@ -51,7 +54,7 @@
 	<div class="parallax" id="section-one">
 		<div class="container vertical-center">
 			<div class="row">
-				<div class="col-sm-6 col-lg-6 text-pop"> <i class="fa fa-star " aria-hidden="true"></i>
+				<div class="col-xs-12 col-sm-6 col-lg-6 text-pop"> <i class="fa fa-star " aria-hidden="true"></i>
 					<h2>Basic Training</h2>
 					<p class="lead">"It doesn't get better, you do"</p>
 					<p class="lead">Basic training taught me a lot of things. How to lead, how to follow and how to walk really fast past my instructors during lunch time. Out of everything I learned in basic training my major take away was this:
@@ -59,17 +62,19 @@
 						<br><strong> Much like the rest of life, things never get easier. You just get better at doing them.</strong>
 						<br> </p>
 				</div>
-				<div class="col-sm-6">
+				<div class=" col-xs-12 col-sm-6">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 						<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
 						</ol>
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
-							<div class="item active"> <img src="img/basic-training.jpg" alt="bt-pic3"> </div>
-							<div class="item"> <img src="img/JohnnyInTheJetSon.jpg" alt="bt-pic2"> </div>
+							<div class="item active"> <img src="img/basic_grad.jpg" alt="bt-pic1"> </div>
+							<div class="item"> <img src="img/basic-training.jpg" alt="bt-pic2"> </div>
+							<div class="item"> <img src="img/JohnnyInTheJetSon.jpg" alt="bt-pic3"> </div>
 						</div>
 						<!-- Left and right controls -->
 						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
@@ -82,29 +87,33 @@
 	<!-- #section-one -->
 	<div class="parallax" id="section-two">
 		<div class="container vertical-center">
-			<div class="col-sm-6 col-lg-6 text-pop">
-				<div><i class="fa fa-star " aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i></div>
-				<h2>Career</h2>
-				<p class="lead">Avionics Technician</p>
-				<p class="lead">I told my recruiter, "Just put me in a field with computers" Apparently he took that as, "Just put me in the fucking desert pushing around 200 lbs tool cart".
-					<br> Joking aside, I did end up working with computers on the most bad ass airplane I have ever seen.
-					<br> </p>
-			</div>
-			<div class="col-sm-6">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel" data-slide-to="1"></li>
-					</ol>
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active"> <img src="img/TopOfA10.JPG" alt="Chania"> </div>
-						<div class="item"> <img src="img/Send_Off.jpg" alt="Flower"> </div>
+			<div class="row">
+				<div class=" col-xs-12 col-sm-6 col-lg-6 text-pop">
+					<div><i class="fa fa-star " aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i></div>
+					<h2>Career</h2>
+					<p class="lead">Avionics Technician</p>
+					<p class="lead">I told my recruiter, "Just put me in a field with computers" Apparently he took that as, "Just put me in the fucking desert pushing around 200 lbs tool cart".
+						<br> Joking aside, I did end up working with computers on the most bad ass airplane I have ever seen.
+						<br> </p>
+				</div>
+				<div class=" col-xs-12 col-sm-6">
+					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel2" data-slide-to="1"></li>
+							<li data-target="#myCarousel2" data-slide-to="2"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item active"> <img src="img/TopOfA10.JPG" alt="top of plane"> </div>
+							<div class="item"> <img src="img/Send_Off.jpg" alt="send off"> </div>
+							<div class="item"> <img src="img/In-shop.jpg" alt="hanging out"> </div>
+						</div>
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+						<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 					</div>
-					<!-- Left and right controls -->
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
-					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 				</div>
 			</div>
 		</div>
@@ -112,28 +121,31 @@
 	<!-- #section-two -->
 	<div class="parallax" id="section-three">
 		<div class="container vertical-center">
-			<div class="col-sm-6 col-lg-6 text-pop">
-				<div><i class="fa fa-star " aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i></div>
-				<h2>Cool Stuff I Did</h2>
-				<p class="lead">The Artistic Technician</p>
-				<p class="lead">I spent most of my life pre-military drawing pictures and not listening to my teachers, I was all to happy to lend my artist touch to the squadron.
-					<br> </p>
-			</div>
-			<div class="col-sm-6">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel" data-slide-to="1"></li>
-					</ol>
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active"> <img src="img/Squadron_Art.jpg" alt="Chania"> </div>
-						<div class="item"> <img src="img/Cgosms_2014-03-2406-34-49.jpg" alt="Flower"> </div>
+			<div class="row">
+				<div class="col-xs-12 col-md-6 text-pop">
+					<div><i class="fa fa-star " aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i></div>
+					<h2>Cool Stuff I Did</h2>
+					<p class="lead">The Artistic Technician</p>
+					<p class="lead">I spent most of my life pre-military drawing pictures and not listening to my teachers, I was all to happy to lend my artist touch to the squadron.
+						<br> </p>
+				</div>
+				<div class=" col-xs-12 col-md-6">
+					<div id="myCarousel3" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel3" data-slide-to="1"></li>
+						</ol>
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item"> <img src="img/Unit%20Logo.jpg" alt="sqdrn logo"> </div>
+							<div class="item active"> <img src="img/Squadron_Art.jpg" alt="squadron art"> </div>
+							<div class="item"> <img src="img/Cgosms_2014-03-2406-34-49.jpg" alt="Avionics Mario"> </div>
+						</div>
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel3" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+						<a class="right carousel-control" href="#myCarousel3" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 					</div>
-					<!-- Left and right controls -->
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
-					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
 				</div>
 			</div>
 		</div>
@@ -142,7 +154,8 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12"> <img class="logo-img" src="img/fb_icon_1024.jpg" alt="Air Force Logo">
+					<h4>LEAD, FOLLOW OR GET OUT THE WAY!</h4>
 					<p>Developed by John Garcia 2016</p>
 				</div>
 			</div>
