@@ -1,7 +1,7 @@
 ﻿# VWC_Military_Portfolio
 My first project for Vets Who Code. The purpose of this project is to make a small portfolio website that gave the user some insight into parts of my military career.
 ## Frameworks Used
-*Bootstrap
+* Bootstrap
 
 ### Workflow
 * Gather Assets - images and text content
