@@ -10,7 +10,7 @@ White:
 @import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
-	margin-top: 100px;
+	margin-top: 90px;
 }
 
 h1,
@@ -130,6 +130,8 @@ a .fa{
 	background-color: transparent;
 	text-align: center;
 	color: #0d182c;
+	animation-duration: 2s;
+  	animation-delay: 1s;
 }
 
 .jumbotron img {
@@ -146,4 +148,9 @@ footer {
 	color: #ffffff;
 	text-align: center;
 	padding: 10px 0;
+}
+
+.carousel{
+	overflow: hidden;
+    max-height: 416px;
 }
