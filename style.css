@@ -106,9 +106,7 @@ a .fa{
 	height: 800px;
 }
 
-#intro-section {
-	background-image: url(img/Davis-Monthan_Air_Force_Base.jpg);
-}
+
 
 #section-one {
 	background-image: url(img/JohnnyInTheJetSon.jpg);
@@ -178,4 +176,29 @@ footer {
 }
 .fadeIn{
 	visibility: visible !important;
+}
+
+video {
+  position: fixed;
+  top: 50%; left: 50%;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.profile{
+	background-image: url('https://preview.c9users.io/johngarcia9110/mil_portfolio/img/Basic_Training.jpg');
+	height: 200px;
+	width: 200px;
+	background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.inner-content{
+	margin-top: 10em;
 }

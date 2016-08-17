@@ -9,6 +9,9 @@
 //         $("#myCarouse12").addClass("fadeIn");
 //     }
 // });
+
+
+
 function isVisible($el) {
   var winTop = $(window).scrollTop();
   var winBottom = winTop + $(window).height();
@@ -37,3 +40,4 @@ $(window).scroll(function () {
 $('.makeItFly').on('click', function(){
   $(this).addClass('zoomOutRight');
 });
+

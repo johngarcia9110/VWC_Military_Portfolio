@@ -22,6 +22,12 @@
 </head>
 <body>
 	<div class="parallax" id="intro-section">
+		<div style="position: fixed; z-index: -99; width: 100%; height:100%; overflow: hidden;" >
+			<video width="100%" height="100%" autoplay loop muted>
+			  <source src="video/Warthog2.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</div>
 		<div class="overlay">
 			<div class="header-bkd navbar-fixed-top">
 				<div class="container">
@@ -42,9 +48,12 @@
 				</div>
 			</div>
 			<!--header-->
-			<div class="jumbotron animated fadeIn"> <img src="img/Basic_Training.jpg" alt="John Profile Pic">
-				<h1>SRA GARCIA, JOHN</h1>
-				<p class="lead">A brief overview of some my experiences in the United States Air Force.</p>
+			<div class="jumbotron animated fadeIn">
+				<div class="inner-content">
+					<div class="profile"></div>
+					<h1>SRA GARCIA, JOHN</h1>
+					<p class="lead">A brief overview of some my experiences in the United States Air Force.</p>
+				</div> 
 			</div>
 			<div class="col-sm-12 scroll-down"> <a href="#section-one"><i class="glyphicon glyphicon-menu-down blue" aria-hidden="true"></i></a></div>
 			<!--container-->
