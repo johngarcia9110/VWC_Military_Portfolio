@@ -110,14 +110,20 @@ a .fa{
 
 #section-one {
 	background-image: url(img/JohnnyInTheJetSon.jpg);
+	position: relative;
+	z-index:1;
 }
 
 #section-two {
-	background-image: url(img/TopOfA10.JPG);
+	background-image: url(img/TopOfA10.jpg);
+	position: relative;
+	z-index:1;
 }
 
 #section-three {
 	background-image: url(img/A-10%20crew.jpg);
+	position: relative;
+	z-index:1;
 }
 .blue{
 	color: #151d2f;
@@ -129,7 +135,7 @@ a .fa{
 	background-attachment: fixed;
 	height: 800px;
 	position:relative;
-	z-index: 0;
+	z-index: 1;
 }
 
 .jumbotron {
@@ -138,6 +144,7 @@ a .fa{
 	color: #0d182c;
 	animation-duration: 2s;
   	animation-delay: 1s;
+  	
 }
 
 .jumbotron img {
@@ -170,8 +177,6 @@ footer {
 
 #row1{
 	visibility: hidden;
-	position: relative;
-	z-index: 3;
 }
 #row2{
 	visibility: hidden;
