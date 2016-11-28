@@ -35,10 +35,11 @@ nav {
 	text-align: center;
 }
 
-#white-jet{
+#white-jet {
 	color: white;
 }
-#usaf{
+
+#usaf {
 	font-size: 30px;
 	color: #6592bb;
 }
@@ -47,7 +48,7 @@ a {
 	color: #ffffff;
 }
 
-a .fa{
+a .fa {
 	color: #0d182c;
 }
 
@@ -74,7 +75,7 @@ a .fa{
 	color: #0d182c;
 	min-height: 370px;
 	animation-duration: 2s;
-  	animation-delay: 1s;
+	animation-delay: 1s;
 }
 
 .header-bkd {
@@ -115,35 +116,35 @@ a .fa{
 	height: 800px;
 }
 
-
-
 #section-one {
 	background-image: url(img/JohnnyInTheJetSon.jpg);
 	position: relative;
-	z-index:1;
+	z-index: 1;
 }
 
 #section-two {
 	background-image: url(img/TopOfA10.jpg);
 	position: relative;
-	z-index:1;
+	z-index: 1;
 }
 
 #section-three {
 	background-image: url(img/A-10%20crew.jpg);
 	position: relative;
-	z-index:1;
+	z-index: 1;
 }
-.blue{
+
+.blue {
 	color: #151d2f;
 }
+
 .parallax {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 800px;
-	position:relative;
+	position: relative;
 	z-index: 1;
 }
 
@@ -152,8 +153,7 @@ a .fa{
 	text-align: center;
 	color: #0d182c;
 	animation-duration: 2s;
-  	animation-delay: 1s;
-  	
+	animation-delay: 1s;
 }
 
 .jumbotron img {
@@ -174,72 +174,121 @@ footer {
 	z-index: 40;
 }
 
-.carousel{
-    max-height: 416px;
-    overflow: hidden;
+.carousel {
+	max-height: 416px;
+	overflow: hidden;
 }
 
-.carousel{
+.carousel {
 	animation-duration: 2s;
-  	animation-delay: 1s;	
+	animation-delay: 1s;
 }
 
-#row1{
-	visibility: hidden;
-}
-#row2{
+#row1 {
 	visibility: hidden;
 }
 
-#row3{
+#row2 {
 	visibility: hidden;
 }
-.fadeIn{
+
+#row3 {
+	visibility: hidden;
+}
+
+.fadeIn {
 	visibility: visible !important;
 }
 
 video {
-  position: fixed;
-  top: 50%; left: 50%;
-  z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	transform: translate(-50%, -50%);
 }
 
-.profile{
+.profile {
 	background-image: url('https://preview.c9users.io/johngarcia9110/mil_portfolio/img/Basic_Training.jpg');
 	height: 200px;
 	width: 200px;
 	background-position: center;
-    background-size: cover;
-    border-radius: 50%;
-    margin: 0 auto;
-    box-shadow: 0 0 0 5px hsla(2, 68%, 45%, 0.4),
-      0 0 0 10px hsl(0, 0%, 100%),
-    0 0 0 15px hsla(228, 29%, 61%, 0.36);
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+	box-shadow: 0 0 0 5px hsla(2, 68%, 45%, 0.4), 0 0 0 10px hsl(0, 0%, 100%), 0 0 0 15px hsla(228, 29%, 61%, 0.36);
 }
 
-.inner-content{
+.inner-content {
 	margin-top: 10em;
 }
 
-.red-bk{
+.red-bk {
 	background-color: rgba(195, 43, 37, 0.40);
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
-.white-bk{
+.white-bk {
 	background-color: rgba(255, 255, 255, 0.40);
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
-.blue-bk{
+.blue-bk {
 	background-color: rgba(21, 29, 47, 0.40);
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 414px) {
+	.navbar-collapse{
+		width: 100%;
+	}
+	.nav-pills{
+		width: 100%;
+	}
+	.nav-pills li{
+		width: 100%;
+	}
+	video {
+		display: none;
+	}
+	#section-one {
+		background-image: none;
+		position: relative;
+		z-index: 1;
+	}
+	#section-two {
+		background-image: none;
+		position: relative;
+		z-index: 1;
+	}
+	#section-three {
+		background-image: none;
+		position: relative;
+		z-index: 1;
+	}
+	.white-bk {
+		background-color: rgba(255, 255, 255, 1);
+		width: 100%;
+		height: 100%;
+	}
+	.blue-bk {
+		background-color: rgba(21, 29, 47, 1);
+		width: 100%;
+		height: 100%;
+	}
+	.red-bk {
+		background-color: rgba(195, 43, 37, 1);
+		width: 100%;
+		height: 100%;
+	}
 }
