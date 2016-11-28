@@ -22,14 +22,14 @@ function isVisible($el) {
 
 $(window).scroll(function () {
     
-    if (isVisible($('#row1')) == true ) {
+    if (isVisible($('#anchor1')) == true ) {
         $('#row1').addClass('fadeIn');
     }
       
-    if (isVisible($('#row2')) == true ) {
+    if (isVisible($('#anchor2')) == true ) {
       $('#row2').addClass('fadeIn');
     }
-    if (isVisible($('#row3')) == true ) {
+    if (isVisible($('#anchor3')) == true ) {
       $('#row3').addClass('fadeIn');
     }
    

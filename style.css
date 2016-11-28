@@ -261,6 +261,9 @@ video {
 	video {
 		display: none;
 	}
+	.inner-content {
+    	margin-top: 4em;
+	}
 	#section-one {
 		background-image: none;
 		position: relative;
@@ -290,5 +293,8 @@ video {
 		background-color: rgba(195, 43, 37, 1);
 		width: 100%;
 		height: 100%;
+	}
+	.vertical-center{
+		display: block;
 	}
 }
