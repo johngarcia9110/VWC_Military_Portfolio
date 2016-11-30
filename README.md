@@ -1,5 +1,12 @@
-﻿# VWC_Military_Portfolio
-My first project for Vets Who Code. The purpose of this project is to make a small portfolio website that gave the user some insight into parts of my military career.
+![John Garcia Military Portfolio Thumbnail](/img/thumbnail.jpg)
+
+# VWC_Military_Portfolio
+
+>My first project for Vets Who Code. The purpose of this project is to make a small portfolio website that gave the user some insight into parts of my military career.
+
+<hr>
+## Demo
+[View Demo](https://johngarcia9110.github.io/VWC_Military_Portfolio/)
 ## Frameworks Used
 * Bootstrap
 
@@ -13,9 +20,10 @@ My first project for Vets Who Code. The purpose of this project is to make a sma
 * Create custom styles
 * Submit project for review and critiques
 
-#### TODO:
-* Adjust Logo
-* Resize images to be same size in all sliders 
+### TODOS
+* ~~Adjust Logo~~
+* ~~Resize images to be same size in all sliders~~
+* ~~Compress and optimize images~~
 
 
 
