@@ -2,7 +2,7 @@
 
 # VWC_Military_Portfolio
 
->My first project for Vets Who Code. The purpose of this project is to make a small portfolio website that gave the user some insight into parts of my military career.
+>My first project for Vets Who Code. The purpose of this project is to make a small portfolio website that gives the users a glimpse into parts of my military career.
 
 <hr>
 ## Demo
